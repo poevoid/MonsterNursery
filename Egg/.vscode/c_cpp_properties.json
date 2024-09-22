@@ -1,0 +1,50 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Arduino",
+            "compilerPath": "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\teensy\\tools\\teensy-compile\\11.3.1\\avr\\bin\\avr-g++",
+            "compilerArgs": [
+                "-w",
+                "-std=gnu++11",
+                "-fpermissive",
+                "-fno-exceptions",
+                "-ffunction-sections",
+                "-fdata-sections",
+                "-fno-threadsafe-statics",
+                "-Wno-error=narrowing"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\cores\\arduboy",
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\variants\\arduboy-mini",
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\libraries\\Wire\\src",
+                "C:\\Users\\gam3r\\OneDrive\\Documents\\Arduino\\libraries\\Adafruit_SHTC3_Library",
+                "C:\\Users\\gam3r\\OneDrive\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+                "C:\\Users\\gam3r\\OneDrive\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor",
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\libraries\\ArduboyFX\\src",
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\libraries\\Arduboy2\\src",
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\libraries\\EEPROM\\src",
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\libraries\\SPI\\src"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\gam3r\\AppData\\Local\\Arduino15\\packages\\arduboy-homemade\\hardware\\avr\\1.4.0\\cores\\arduboy\\Arduino.h"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "defines": [
+                "F_CPU=16000000L",
+                "ARDUINO=10819",
+                "ARDUINO_AVR_ARDUBOY",
+                "ARDUINO_ARCH_AVR",
+                "ARDUBOY_10",
+                "CART_CS_HWB",
+                "USB_VID=0x2341",
+                "USB_PID=0x8036",
+                "USB_MANUFACTURER=\"Arduboy Inc\"",
+                "USB_PRODUCT=\"Arduboy\"",
+                "USBCON"
+            ]
+        }
+    ]
+}

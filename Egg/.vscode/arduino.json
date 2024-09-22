@@ -1,0 +1,6 @@
+{
+    "configuration": "core=arduboy-core,boot=cathy3k",
+    "board": "arduboy-homemade:avr:arduboy-mini",
+    "sketch": "Egg.ino",
+    "port": "COM9"
+}
